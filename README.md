@@ -11,6 +11,6 @@ You can say this is a use and go website with the whole environment data around 
 
 Hope you like our project and dont hesitate to update any issue by facing the website...
 
-our contact emain - mvrkkautilya@gmail.com
+our contact email - mvrkkautilya@gmail.com
 
 link to the website : https://powerful-plateau-58935.herokuapp.com/
