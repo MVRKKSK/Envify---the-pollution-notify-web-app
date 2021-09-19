@@ -1,0 +1,184 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #7f53ac;
+    background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.quote {
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.treepng {
+    width: 50px;
+    height: 50px;
+}
+
+.navbar-nav {
+    margin-right: 10px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+}
+
+.navbar-brand {
+    font-family: 'Righteous', cursive;
+}
+
+a {
+    text-decoration: none;
+}
+
+.envifydata {
+    background-color: rgb(150, 240, 128);
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.dot {
+    color: white;
+}
+
+h1 {
+    font-family: 'Righteous', cursive;
+}
+
+h2 {
+    font-family: 'Righteous', cursive;
+}
+
+h4 {
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+}
+
+.middle {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+}
+
+.container {
+    margin-left: 380px;
+}
+
+.details {
+    font-family: 'Patua One', cursive;
+    font-family: 'Righteous', cursive;
+    font-size: 1.5em;
+    height: 400px;
+    width: 800px;
+    background-color: white;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.18);
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    grid-gap: 1rem;
+}
+
+.maintext {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.middletext {
+    display: flex;
+    justify-content: center;
+}
+
+.endtext {
+    display: flex;
+    justify-content: center;
+}
+
+.blog-image {
+    width: 700px;
+    height: 500px;
+}
+
+.chart-image {
+    width: 700px;
+    height: 500px;
+}
+
+h3 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 900;
+}
+
+img {
+    width: 500px;
+    height: 200px;
+    display: block;
+    border-radius: 20px 20px 20px 20px;
+    max-width: 100%;
+}
+
+.wrapper {
+    padding: 0 2rem;
+    padding-top: 2rem;
+}
+
+.news {
+    font-family: 'Crete Round', serif;
+    font-family: 'Patua One', cursive;
+    font-family: 'Righteous', cursive;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    grid-gap: 2rem;
+    padding: 0 2rem;
+    padding-top: 2rem;
+}
+
+.news-card {
+    background-color: #1c1b29;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.18);
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 20px;
+}
+
+.card-text {
+    font-family: 'Glory', sans-serif;
+}
+
+.news-card:hover {
+    text-decoration: none;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16), 0 3px 3px rgba(0, 0, 0, 0.23);
+}
+
+.contact {
+    color: white;
+    font-size: 1rem;
+    padding: 20px;
+}
+
+@media all and (max-width: 900px) {
+    .details {
+        font-family: 'Patua One', cursive;
+        font-family: 'Righteous', cursive;
+        font-size: 1em;
+        height: 700px;
+        width: 100%;
+        background-color: white;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.18);
+        border-radius: 10px;
+        padding-left: 20px;
+        padding-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+        grid-gap: 1rem;
+    }
+}
